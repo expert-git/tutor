@@ -1,0 +1,223 @@
+.profile_content h3 {
+    color: #646464;
+    font-size: 20px;
+    font-family: 'ProximaNova-Semibold';
+    padding-top: 10px;
+}
+
+h3.f_bio {
+    font-size: 18px;
+    color: #0a0f1a;
+    font-family: 'ProximaNovaAlt-Regular';
+}
+
+.profile_content h1 {
+    font-size: 28px;
+    color: #646464;
+    font-family: 'ProximaNova-Semibold';
+}
+
+.profile_content span {
+    font-size: 18px;
+    color: #168aba;
+    font-family: 'ProximaNova-Semibold';
+}
+.f_icon_color {
+    color: #ed7275;
+}
+.profile_content h2 {
+    color: #646464;
+    font-size: 18px;
+    font-family: 'ProximaNova-Semibold';
+}
+
+section.profile_main {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+h3.about_main_head {
+    font-size: 28px;
+    color: #ed7275;
+    font-family: 'ProximaNovaAlt-Regular';
+}
+
+h3.f_hello {
+    font-size: 17px;
+    color: #747474;
+    font-family: 'ProximaNovaAlt-Regular';
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+a.f_read {
+    font-size: 18px;
+    color: #168aba;
+    font-family: 'ProximaNovaAlt-Regular';
+}
+
+.f_hello span {
+    font-size: 18px;
+    color: #168aba;
+    font-family: 'ProximaNovaAlt-Regular';
+}
+h3.f_subject {
+    font-size: 17px;
+    color: #168aba;
+    font-family: 'ProximaNovaAlt-Regular';
+    padding-top: 3px;
+}
+
+a.f_subject {
+    font-size: 18px;
+    color: #168aba;
+    font-family: 'ProximaNovaAlt-Regular';
+    padding-top: 3px;
+}
+
+
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+    width: 90%;
+    height: 18px;
+    background-color: #ed7275;
+}
+.bar-4 {
+    width: 20%;
+    height: 18px;
+    background-color: #ed7275;
+}
+.bar-3 {
+    width: 0%;
+    height: 18px;
+    background-color: transparent;
+}
+.bar-2 {width: 0%; height: 18px; background-color: transparent;}
+.bar-1 {width: 0%; height: 18px; background-color: transparent;}
+.side p {
+    font-size: 16px;
+    color: #747474;
+    font-family: 'ProximaNovaAlt-Regular';
+}
+
+h3.f_awe {
+    font-size: 22px;
+    color: #0a0f1a;
+    font-family: 'ProximaNova-Semibold';
+    padding-top: 10px;
+}
+h3.f-other {
+    font-size: 24px;
+    color: #747474;
+    font-family: 'ProximaNovaAlt-Regular';
+}
+
+p.f_palatine {
+    font-size: 18px;
+    color: #168aba;
+    font-family: 'ProximaNovaAlt-Regular';
+}
+a.f_contact_priti {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #ed7275;
+    font-family: 'ProximaNova-Semibold';
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.btn_bottom {
+    margin-top: 23px;
+}
+
+p.f_res {
+    font-size: 18px;
+    color: #afabaa;
+    font-family: 'ProximaNova-Semibold';
+    padding-left: 16px;
+    padding-top: 10px;
+}
+
+
+.s_table_fd>thead>tr>th {
+    font-size: 10px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    font-family: 'ProximaNovaAlt-Regular' !important;
+}
+.s_table_fd>thead>tr>th:last-child {
+    border-right: 0px solid #ddd;
+}
+.s_table_fd>tbody>tr>td {
+    font-size: 10px;
+    padding: 0 5px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'ProximaNova-Semibold' !important;
+}
+.s_table_fd>tbody>tr>td:last-child {
+    border-right: 0px solid #ddd;
+}
+.custom-tooltip{
+    float: left;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.create_schedule{
+    float: left;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+.available {
+    background: #0aaf0a;
+}
+.booked{
+    background: #ff0000;
+}
+.close_review_modal{
+    background-color: #ed7275;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'ProximaNova-Semibold';
+    text-align: center;
+    width: 28%;
+    margin-top: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 12px;
+    margin-left: 37%;
+}

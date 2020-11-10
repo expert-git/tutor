@@ -1,0 +1,475 @@
+/*for desktop*/
+ @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+   .s_buttonview {
+        margin-top: 0;
+        padding-top: 15px;
+    }
+     .f_xs_view{
+         display: block;
+    }
+     .f_md_view{
+         display: none;
+    }
+     .top-header {
+         padding: 0px 15px;
+         width: 100%;
+         float: right;
+         margin-top: 10px;
+    }
+     ul.top-header-nav li {
+        /* font-size: 11px;
+        */
+    }
+     .index header {
+         position: relative;
+    }
+     ul.header-nav {
+         width: 100%;
+    }
+     .header-text h2 {
+         font-size: 16px;
+    }
+     .header-text h3 {
+         font-size: 16px;
+    }
+     .header-text p {
+         font-size: 6px;
+    }
+     .f_about {
+         font-size: 12px;
+         display: inline;
+    }
+     .f_main {
+         top: 0px;
+    }
+     .header-text {
+         top: -43%;
+    }
+     .btn_check {
+         margin-bottom: 30px;
+    }
+     h3.f_text {
+         font-size: 45px;
+    }
+     span.f_icon1 {
+         font-size: 12px;
+    }
+     ul.f_site {
+         float: left;
+    }
+     h3.f_get {
+         font-size: 12px;
+    }
+     li.f_right {
+         float: left !important;
+    }
+     .f_width {
+         width: 69%;
+         margin-top: 16px;
+         margin-left: -6px;
+    }
+     .f_width1 {
+         width: 48%;
+         margin-bottom: 10px;
+         margin-left: 10px;
+    }
+     .f_logo {
+         text-align: center;
+         margin: 0 auto;
+    }
+     .f_width {
+         margin-top: 11px;
+    }
+     h3.f_maintext {
+         font-size: 16px;
+    }
+     h3.f_maincontent {
+         font-size: 16px;
+    }
+     p.p_tutors {
+         font-size: 14px;
+    }
+     section.tutor_work {
+         margin-top: auto;
+    }
+     h3.f_take {
+         font-size: 25px;
+    }
+     p.p_take {
+         margin-bottom: 15px;
+    }
+     h3.f_take {
+         margin-bottom: 10px;
+    }
+     img.fulltime_img {
+         text-align: center;
+         margin: 0 auto;
+         margin-top: 30px;
+    }
+     h3.f_student {
+         margin: 12px;
+    }
+     h3.search_name {
+         margin-top: 0px;
+    }
+     .img_searchresp {
+         text-align: center;
+         margin: 0 auto;
+    }
+     .f_clock {
+         margin-top: 2px;
+    }
+     .f_buttonview {
+         margin: 0 auto;
+         text-align: center;
+    }
+     section.aboutus {
+         margin-bottom: 50px;
+    }
+     .navbar-toggle {
+         margin-top: -50px;
+    }
+     p.f_time {
+         font-size: 16px;
+    }
+     .fulltime_content {
+         margin-top: auto;
+    }
+     h3.f_register {
+         font-size: 16px;
+         margin-top: 35px;
+    }
+     .f_borderright {
+         border-right: none;
+    }
+     p.about_content {
+         font-size: 14px;
+    }
+     h3.f_margintop {
+         margin-top: 50px;
+    }
+     .w3-black, .w3-hover-black:hover {
+         font-size: 25px;
+         margin-left: auto;
+         margin-right: auto;
+    }
+     .f_btnpadding {
+         padding-left: 20px;
+         padding-right: 20px;
+    }
+     .f_ipad {
+         padding-left: 17px;
+         padding-right: 17px;
+    }
+     .f_iphone {
+         padding-left: 15px;
+         padding-right: 22px;
+    }
+}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+     .f_xs_view{
+         display: block;
+    }
+     .f_md_view{
+         display: none;
+    }
+     .btn_check {
+         margin-bottom: 30px;
+    }
+     ul.f_site {
+         margin-top: -26px;
+    }
+     .f_site li {
+         padding: 0px;
+    }
+     .f_width {
+         width: 33%;
+         margin-top: 16px !important;
+         margin-left: -6px;
+    }
+     .f_width1 {
+         width: 23%;
+         margin-bottom: 10px;
+         margin-left: 10px;
+    }
+     img.log_f {
+        /* height: 100px !important;
+         */
+         text-align: center;
+         margin: 0 auto;
+         margin-top: 34px;
+    }
+     .f_logo {
+         text-align: center;
+         margin: 0 auto;
+    }
+     h3.f_check {
+         text-align: center;
+    }
+     p.f_per {
+         text-align: center;
+    }
+     h3.f_text {
+         text-align: center;
+    }
+     p.f_tutor {
+         text-align: center;
+    }
+     .index header {
+         position: relative;
+    }
+     .header-text {
+         top: -17%;
+    }
+     .f_main {
+         top: 0px;
+    }
+     .top-header {
+         width: auto;
+    }
+     h3.f_margin {
+         margin-top: -167px !important;
+    }
+     h3.f_take {
+         text-align: center;
+         margin-bottom: 10px;
+    }
+     p.p_take {
+         text-align: center;
+         margin-bottom: 12px;
+    }
+     .f_imgres {
+         text-align: center;
+         margin: 0 auto;
+    }
+     p.p_tutors {
+         font-size: 17px;
+    }
+     img.fulltime_img {
+         text-align: center;
+         margin: 0 auto;
+         margin-top: 30px;
+    }
+     section.aboutus {
+         margin-bottom: 50px;
+    }
+     h3.f_student {
+         margin-top: 15px;
+    }
+     .num_tutor {
+         float: none;
+    }
+     .navbar-toggle {
+         margin-top: -23px;
+         margin-right: -4px;
+    }
+     .f_bylocation {
+         width: auto;
+    }
+     .f_bycourse {
+         width: auto;
+    }
+     .f_size {
+         width: 148px;
+    }
+     .fulltime_content {
+         margin-top: 0px !important;
+    }
+     p.f_time {
+         font-size: 17px;
+    }
+     p.f_time {
+         font-size: 16px;
+    }
+     h3.f_register {
+         margin-top: 30px;
+    }
+     .f_borderright {
+         border-right: none;
+    }
+     p.about_content {
+         font-size: 17px;
+    }
+     h3.f_margintop {
+         margin-top: 30px !important;
+    }
+     section.info {
+         padding-top: 25px;
+    }
+     img.info_img {
+         margin-top: 15px !important;
+    }
+     section.info {
+         padding-top: 15px !important;
+    }
+     .f_ipad {
+         padding-left: 17px;
+         padding-right: 17px;
+    }
+     .f_iphone {
+         padding-left: 15px;
+         padding-right: 22px;
+    }
+}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape){
+     ul.f_site {
+         margin-top: 12px;
+    }
+     .f_width {
+         width: auto;
+         margin-top: 0px !important;
+    }
+     .f_width1 {
+         width: auto;
+    }
+     h3.f_margin {
+         margin-top: 50px !important;
+    }
+     p.p_take {
+         font-size: 16px;
+    }
+     .navbar-toggle {
+         margin-top: -16px;
+         margin-right: -17px;
+    }
+     .f_bylocation {
+         width: auto;
+    }
+     .f_bycourse {
+         width: auto;
+    }
+     p.f_time {
+         font-size: 15px;
+    }
+     .f_size {
+         width: 148px;
+    }
+     .fulltime_content {
+         margin-top: 0px !important;
+    }
+     p.f_time {
+         font-size: 17px;
+    }
+     .f_imgres {
+         text-align: center;
+         margin-top: 20px !important;
+         margin: 0 auto;
+    }
+     .f_xs_view {
+         display: none;
+    }
+     .header-text {
+         top: 3%;
+    }
+}
+ @media only screen and (min-device-width : 320px) and (max-device-width : 767px) and (orientation:landscape){
+     .f_main {
+         top: -99px !important;
+    }
+     h3.f_check {
+         text-align: center;
+    }
+     p.f_per {
+         text-align: center;
+    }
+     .btn_check {
+         text-align: center;
+    }
+     .f_logo {
+         text-align: center;
+         margin: 0 auto;
+    }
+     .f_width1 {
+         width: auto;
+         margin-bottom: 10px !important;
+    }
+     .f_width {
+         width: auto;
+         margin-top: 16px !important;
+    }
+     .f_imgres {
+         text-align: center;
+         margin: 0 auto;
+    }
+     h3.f_take {
+         text-align: center;
+    }
+     p.p_take {
+         text-align: center;
+    }
+     .f_star {
+         margin-top: 10px;
+    }
+     .num_tutor {
+         float: none;
+    }
+     .navbar-toggle {
+         margin-top: -18px;
+    }
+     p.f_time {
+         font-size: 10px;
+    }
+     .fulltime_content {
+         margin-top: auto;
+    }
+     h3.f_margintop {
+         margin-top: 30px !important;
+    }
+     .header-text {
+         top: -11%;
+    }
+     h3.f_iphone {
+         margin-top: 7px;
+    }
+}
+ @media (max-width: 1200px) {
+     .navbar-header {
+         float: none;
+    }
+     .navbar-left,.navbar-right {
+         float: none !important;
+    }
+     .navbar-toggle {
+         display: block;
+    }
+     .navbar-collapse {
+         border-top: 1px solid transparent;
+         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+     .navbar-fixed-top {
+         top: 0;
+         border-width: 0 0 1px;
+    }
+     .navbar-collapse.collapse {
+         display: none!important;
+    }
+     .navbar-nav {
+         float: none!important;
+         margin-top: 7.5px;
+    }
+     .navbar-nav>li {
+         float: none;
+    }
+     .navbar-nav>li>a {
+         padding-top: 10px;
+         padding-bottom: 10px;
+    }
+     .collapse.in{
+         display:block !important;
+    }
+}
+/*@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+     p.f_time {
+         font-size: 16px !important;
+    }
+}
+*/
+ @media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation:landscape){
+     .f_iphone {
+         padding-left: 15px;
+         padding-right: 22px;
+    }
+     h3.search_name {
+         margin-top: 1px;
+    }
+}

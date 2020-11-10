@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+/* =Reset default browser CSS. -------------------------------------------------------------- */
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+     border: 0;
+     font-family: inherit;
+     font-size: 15px;
+     font-family: 'Montserrat-Bold';
+     font-style: inherit;
+     font-weight: inherit;
+     margin: 0;
+     outline: 0;
+     padding: 0;
+     vertical-align: baseline;
+}
+
+ * {
+     outline: none
+}
+ :focus {
+    /* remember to define focus styles! */
+     outline: 0;
+}
+ .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+     outline: 0px auto -webkit-focus-ring-color;
+     outline-offset: 0px;
+}
+ a {
+     text-decoration: none;
+}
+ a:active {
+     outline: 0;
+}
+ ol, ul {
+     list-style: none;
+}
+ table {
+    /* tables still need 'cellspacing="0"' in the markup */
+     border-collapse: separate;
+     border-spacing: 0;
+}
+ caption, th, td {
+     font-weight: normal;
+     text-align: left;
+}
+ body {
+     color: #1e1e1e;
+     font-size: 16px;
+     position: relative;
+}
+ html, body {
+     height: 100%;
+     max-width: 1920px;
+     margin: auto;
+}
+/*********** ./END RESET CSS HERE.
+/*******/
+
+ @font-face {
+     font-family: 'SourceSansPro-Semibold';
+     src: url('../fonts/SourceSansPro-Semibold.otf');
+     font-weight: normal;
+     font-style: normal;
+}
+ @font-face {
+     font-family: 'SourceSansPro-Regular';
+     src: url('../fonts/SourceSansPro-Regular.otf');
+     font-weight: normal;
+     font-style: normal;
+}
+ body{
+     height: 100%;
+     max-width: 1920px;
+     margin: auto;
+}
+ nav, .menu, .header-contact{
+     overflow: hidden;
+}
+ header {
+     background-color: #262063;
+}
+ header {
+     background-color: #262063;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+h1.signup {
+    text-align: center;
+    font-size: 26px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-family: 'SourceSansPro-Semibold';
+    z-index: 9999;
+    position: relative;
+}
+ h1.signin {
+     text-align: center;
+     font-size: 26px;
+     color: #333333;
+     margin-bottom: 20px;
+     font-family: 'SourceSansPro-Semibold';
+     z-index: 9999;
+     position: relative;
+}
+ section.form_right {
+     padding-top: 100px;
+}
+input#username {
+    border-radius: 0px;
+    font-size: 15px;
+    color: #afafaf;
+    font-family: 'SourceSansPro-Regular';
+}
+input#phone_no{
+    border-radius: 0px;
+    font-size: 15px;
+    color: #afafaf;
+    font-family: 'SourceSansPro-Regular';
+    
+}
+input#userrepeatpassword {
+    border-radius: 0px;
+    font-size: 15px;
+    color: #afafaf;
+    font-family: 'SourceSansPro-Regular';
+}
+
+ input#useremail {
+     border-radius: 0px;
+     font-size: 15px;
+     color: #afafaf;
+     font-family: 'SourceSansPro-Regular';
+}
+span#usericons {
+    border-radius: 0px;
+}
+ span#usericonemail {
+     border-radius: 0px;
+}
+ input#userpassword {
+     border-radius: 0px;
+     font-size: 15px;
+     color: #afafaf;
+     font-family: 'SourceSansPro-Regular';
+}
+ label {
+     margin-bottom: 5px;
+     color: #333333;
+     font-size: 15px;
+     font-family: 'SourceSansPro-Semibold';
+}
+ h3.fotgot {
+     font-size: 15px;
+     color: #333333;
+     font-family: 'SourceSansPro-Regular';
+}
+ .form-control:focus {
+     border-color: #b7b7b7;
+     outline: 0;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #b7b7b7;
+    /* box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #b7b7b7;
+     */
+}
+ .button_signin button.btn {
+     background-color: #262063;
+     color: #ffffff;
+     font-size: 15px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     font-family: 'SourceSansPro-Regular';
+     padding-left: 16px;
+     padding-right: 16px;
+}
+ .button_signin {
+     margin-top: 15px;
+}
+ h1.signin:after {
+     content: '';
+     display: block;
+     width: 100px;
+     height: 4px;
+     background: #333333;
+     position: absolute;
+     left: calc(50% - 50px);
+     top: 25px;
+     z-index: -999;
+}
+ h1.signin:before {
+     content: '';
+     display: block;
+     width: 18px;
+     height: 4px;
+     background: #ffffff;
+     position: absolute;
+     left: calc(50% - 23px);
+     top: 25px;
+     z-index: -99;
+}
+ .nav_footer li {
+     display: inline-block;
+     padding-left: 18px;
+}
+ .nav_footer ul {
+     float: right;
+}
+ footer.last_footer {
+     background-color: #262063;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+ .nav_footer a {
+     font-size: 15px;
+     color: #ffffff;
+     font-family: 'SourceSansPro-Regular';
+}
+ a:focus, a:hover {
+     text-decoration: none;
+}
+ @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+     h1.signin {
+         margin-top: 50px;
+    }
+     .button_signin {
+         margin-bottom: 10px;
+    }
+     .nav_footer ul {
+         float: left;
+    }
+}
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1042px) {
+     h1.signin {
+         margin-top: 50px;
+    }
+     .button_signin {
+         margin-bottom: 10px;
+    }
+     .col-md-3 {
+         width: auto;
+    }
+}
